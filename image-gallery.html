@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Image Gallery</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 30px;
+      font-family: Arial;
+      background: #f0f0f0;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 15px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <h2>My Gallery</h2>
+  <div class="gallery">
+    <img src="https://placekitten.com/300/200" alt="cat">
+    <img src="https://placekitten.com/301/200" alt="cat">
+    <img src="https://placekitten.com/302/200" alt="cat">
+    <img src="https://placekitten.com/303/200" alt="cat">
+    <img src="https://placekitten.com/304/200" alt="cat">
+    <img src="https://placekitten.com/305/200" alt="cat">
+  </div>
+
+</body>
+</html>
