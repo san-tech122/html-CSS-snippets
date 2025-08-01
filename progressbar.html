@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Progress Bar</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 50px;
+    }
+    .progress-container {
+      margin-bottom: 20px;
+    }
+    .label {
+      margin-bottom: 5px;
+    }
+    .progress {
+      background: #eee;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+    .bar {
+      height: 20px;
+      background: #3498db;
+      width: 0;
+      animation: fillBar 2s forwards;
+    }
+    @keyframes fillBar {
+      to { width: 85%; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="progress-container">
+    <div class="label">HTML</div>
+    <div class="progress"><div class="bar"></div></div>
+  </div>
+
+</body>
+</html>
