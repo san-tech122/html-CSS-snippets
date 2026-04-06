@@ -1,5 +1,5 @@
 # html-CSS-snippets
-# 💻 100+ HTML & CSS Snippets for Beginners
+# 💻 HTML & CSS Snippets for Beginners
 
 Welcome to **Nova Dev’s Snippet Library** – a collection of **beautiful, clean, and copy-paste-ready HTML + CSS components** for developers of all levels!
 
@@ -9,8 +9,8 @@ Welcome to **Nova Dev’s Snippet Library** – a collection of **beautiful, cle
 
 ## 📦 What’s Inside?
 
-- ✅ 100+ handcrafted code snippets
-- 🎨 Pure HTML + CSS (No JS required)
+- ✅  handcrafted code snippets
+- 🎨 Pure HTML + CSS (No JS )
 - 🧠 Beginner-friendly, well-commented code
 - 📱 Responsive designs
 - 💎 Ready to use in real projects
